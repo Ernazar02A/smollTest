@@ -62,15 +62,23 @@
 			children = (
 				522D372A29F3D3B900B9636C /* AppDelegate.swift */,
 				522D372C29F3D3B900B9636C /* SceneDelegate.swift */,
-				522D372E29F3D3B900B9636C /* LoginViewController.swift */,
-				526413B529F702B2006DD5BE /* NewAccViewController.swift */,
-				526413B729F70481006DD5BE /* ForgotViewController.swift */,
+				526413B929F7160D006DD5BE /* controller */,
 				522D373029F3D3B900B9636C /* Main.storyboard */,
 				522D373329F3D3BC00B9636C /* Assets.xcassets */,
 				522D373529F3D3BC00B9636C /* LaunchScreen.storyboard */,
 				522D373829F3D3BC00B9636C /* Info.plist */,
 			);
 			path = smollTest;
+			sourceTree = "<group>";
+		};
+		526413B929F7160D006DD5BE /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				522D372E29F3D3B900B9636C /* LoginViewController.swift */,
+				526413B529F702B2006DD5BE /* NewAccViewController.swift */,
+				526413B729F70481006DD5BE /* ForgotViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

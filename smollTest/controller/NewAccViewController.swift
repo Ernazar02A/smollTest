@@ -31,4 +31,17 @@ class NewAccViewController: UIViewController {
             self.present(vc, animated: true)
         }
     }
+    @IBAction func securyEyeBtn(sender: UIButton) {
+        if passwordTextField.isSecureTextEntry {
+            let image = UIImage(systemName: "eye.fill")
+            sender.setImage(image, for: .normal)
+            
+            passwordTextField.isSecureTextEntry = false
+        } else {
+            let image = UIImage(systemName: "eye.slash.fill")
+            sender.setImage(image, for: .normal)
+            
+            passwordTextField.isSecureTextEntry = true
+        }
+    }
 }
